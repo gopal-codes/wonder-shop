@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/wonder-shop/static/css/main.b6c284ea.chunk.css",
+    "main.js": "/wonder-shop/static/js/main.11b4410b.chunk.js",
+    "main.js.map": "/wonder-shop/static/js/main.11b4410b.chunk.js.map",
+    "runtime-main.js": "/wonder-shop/static/js/runtime-main.57dc6018.js",
+    "runtime-main.js.map": "/wonder-shop/static/js/runtime-main.57dc6018.js.map",
+    "static/css/2.99daddc1.chunk.css": "/wonder-shop/static/css/2.99daddc1.chunk.css",
+    "static/js/2.c9d0e6d4.chunk.js": "/wonder-shop/static/js/2.c9d0e6d4.chunk.js",
+    "static/js/2.c9d0e6d4.chunk.js.map": "/wonder-shop/static/js/2.c9d0e6d4.chunk.js.map",
+    "static/js/3.3b52db87.chunk.js": "/wonder-shop/static/js/3.3b52db87.chunk.js",
+    "static/js/3.3b52db87.chunk.js.map": "/wonder-shop/static/js/3.3b52db87.chunk.js.map",
+    "index.html": "/wonder-shop/index.html",
+    "static/css/2.99daddc1.chunk.css.map": "/wonder-shop/static/css/2.99daddc1.chunk.css.map",
+    "static/css/main.b6c284ea.chunk.css.map": "/wonder-shop/static/css/main.b6c284ea.chunk.css.map",
+    "static/js/2.c9d0e6d4.chunk.js.LICENSE.txt": "/wonder-shop/static/js/2.c9d0e6d4.chunk.js.LICENSE.txt",
+    "static/media/brothers.25b74545.jpg": "/wonder-shop/static/media/brothers.25b74545.jpg",
+    "static/media/wondershop1.21cf50da.jpg": "/wonder-shop/static/media/wondershop1.21cf50da.jpg",
+    "static/media/wondershop2.c6053948.jpg": "/wonder-shop/static/media/wondershop2.c6053948.jpg",
+    "static/media/wondershop4.4b040cc2.jpg": "/wonder-shop/static/media/wondershop4.4b040cc2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.57dc6018.js",
+    "static/css/2.99daddc1.chunk.css",
+    "static/js/2.c9d0e6d4.chunk.js",
+    "static/css/main.b6c284ea.chunk.css",
+    "static/js/main.11b4410b.chunk.js"
+  ]
+}
