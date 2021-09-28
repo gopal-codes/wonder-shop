@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/wonder-shop/static/css/main.b6c284ea.chunk.css",
-    "main.js": "/wonder-shop/static/js/main.11b4410b.chunk.js",
-    "main.js.map": "/wonder-shop/static/js/main.11b4410b.chunk.js.map",
+    "main.js": "/wonder-shop/static/js/main.b5c6d2cb.chunk.js",
+    "main.js.map": "/wonder-shop/static/js/main.b5c6d2cb.chunk.js.map",
     "runtime-main.js": "/wonder-shop/static/js/runtime-main.57dc6018.js",
     "runtime-main.js.map": "/wonder-shop/static/js/runtime-main.57dc6018.js.map",
     "static/css/2.99daddc1.chunk.css": "/wonder-shop/static/css/2.99daddc1.chunk.css",
@@ -24,6 +24,6 @@
     "static/css/2.99daddc1.chunk.css",
     "static/js/2.c9d0e6d4.chunk.js",
     "static/css/main.b6c284ea.chunk.css",
-    "static/js/main.11b4410b.chunk.js"
+    "static/js/main.b5c6d2cb.chunk.js"
   ]
 }
