@@ -1,0 +1,165 @@
+.skeleton{
+    height: auto;
+    width: auto;
+    background: #ddd;
+    padding: 10px 0;
+	margin: 15px 0;
+    border-radius: 20px;
+}
+
+.skeleton.img{
+    width: 100%;
+	height: 200px;
+	margin-bottom: 1px;
+}
+
+.skeleton.price{
+    width: 60%;
+    height: 35px;
+}
+
+.skeleton.category{
+    width: 80%;
+    height: 30px;
+}
+
+.skeleton.title{
+    width: 90%;
+    height: 34px;
+}
+
+.skeleton.carddes{
+    width: 100%;
+    height: 50px;
+}
+
+.skeleton.button{
+    width: 40%;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+.Skeletoncontainer{
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+
+@media(max-width: 1200px){
+	.Skeletoncontainer{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+
+
+.Skeletonfield{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background: #aaa;
+
+}
+
+.Skeletonfield{
+    height: 1000px;
+    overflow: scroll;
+}
+@media (max-width: 1400px){
+    .Skeletonfield{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (max-width: 1200px){
+    .Skeletonfield{
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 700px){
+    .Skeletonfield{
+        grid-template-columns: 1fr;
+       
+    }
+}
+
+.Cartfield{
+    width: 100%;
+    border: 5px dotted green;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+.SkeletonCard{
+    width: auto;
+	height: auto;
+	padding: 40px 20px;
+	margin: 15px;
+	background: #ccc;
+	border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.SkeletonimgContainer{
+    width: 100%;
+	height: 14rem;
+	position: relative;
+	margin-bottom: 2px;
+	overflow: hidden;
+}
+.SkeletonimgContainer img{
+    position: absolute;
+	top: 0%;
+	height: 100%;
+	width: 100%;
+	object-fit: scale-up;
+}
+
+.SkeletoncardText{
+    background: #ccc;
+}
+
+
+.SkeletonbtnContainer{
+    height: 35px;
+    display: flex;
+    justify-content: space-around;
+    background: #ccc;
+}
+
+
+
+/* Skeleton Animation */
+
+.SkeletonCard-wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    animation: loading 1.5s infinite;
+}
+
+.Skeleton-effect{
+    width: 60%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.3);
+    transform: skewX(-10deg);
+
+}
+
+@keyframes loading {
+    0%{ transform: translateX(-150%) }
+    50%{transform: translateX(-50%)}
+    100%{ transform: translateX(150%);}
+   
+}
