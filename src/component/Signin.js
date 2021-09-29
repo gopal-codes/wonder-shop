@@ -1,11 +1,11 @@
 import React, { } from 'react';
-
+import { useHistory } from 'react-router-dom';
 
 
 const Signin = () => {
-
-
-
+             
+const history = useHistory();
+const home = useHistory();
     return (
         <div>
            
@@ -27,14 +27,14 @@ const Signin = () => {
                                 <h3>Enter Password</h3>
                                 <input type='password' className='signupInput' placeholder='Enter Password' />
                                 <br />
-                                <button className='specialbtn'>LOG IN</button>
+                                <button className='specialbtn' onClick={()=>{home.push("/wonder-shop")}}>LOG IN</button>
                             </div>
                         </div>
                         <hr />
 
                         <div className='d-flex space-between'>
                             <h6>Don't Have Acount ?</h6>
-                            <h6><a href='/Signup'> Create Account</a> </h6>
+                            <h6 onClick={()=>{history.push('/signup')}}> Create Account</h6>
                             
                         </div>
                     </div>

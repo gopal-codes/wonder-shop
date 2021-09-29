@@ -55,15 +55,16 @@ function Home() {
                         </Carousel.Caption>
                     </Carousel.Item>
                 </Carousel>
+                <div style={{ height: "30px", background: "blue" }}></div>
             </div>
-            <div style={{ height: "30px", background: "blue" }}></div>
 
+            <div className='mycontainer'>
             <section>
                 <div className="whyus ">
                     <div>
                         <div className="whyus_content">
                             <h1>Why Choose Us ?</h1>
-                            <h3>We have best MarketPlace in the whole Country. We offer best Product at Reasonable Price.
+                            <h3>We are the best MarketPlace in the whole Country. We offer best Product at Reasonable Price.
                             </h3>
                             <p>Excellence is our desire. And i dont remeber what to write this time. I am writing some random
                                 text that doesn't mean anythings. Thank You</p>
@@ -71,16 +72,19 @@ function Home() {
                     </div>
                 </div>
             </section>
-
-
             <div style={{ height: "30px", background: "blue" }}></div>
+            </div>
 
-        
+            
+
+            <div className='mycontainer'>
             <Itemcontainer2 />
 
-
             <div style={{ height: "30px", background: "blue" }}></div>
+            </div>
 
+           
+            <div className='mycontainer'>
             <section className="contact-section">
                 <h2 style={{ textAlign: 'center' }}>Contact us</h2>
                 <div className="d-flex justify-content-center">
@@ -108,8 +112,9 @@ function Home() {
 
                 </div>
             </section>
+            </div>
 
-            <div style={{ height: "30px", background: "blue" }}></div>
+           
 
             <Fotter />
 

@@ -2,13 +2,16 @@ import React, { useState } from 'react';
 import Modal from 'react-modal';
 import {FcGoogle} from 'react-icons/fc'
 import {SiFacebook} from 'react-icons/si'
-import {ImTwitter} from 'react-icons/im'
+import {ImTwitter} from 'react-icons/im';
+
+import { useHistory } from 'react-router-dom';
 
 const Signup = () => {
 
     const [name, setname] = useState(null);
     const [modalisopen,setmodalisopen] = useState(false);
 
+    const history = useHistory()
     return (
         <div>
             <div className='d-flex flex-center'>
@@ -47,13 +50,13 @@ const Signup = () => {
                     <hr />
                     <div className='d-flex space-between'>
                         <button className='alternativeBtn'><FcGoogle size='35px'/></button>
-                        <button className='alternativeBtn'><SiFacebook size='35px'/>k</button>
+                        <button className='alternativeBtn'><SiFacebook size='35px'/></button>
                         <button className='alternativeBtn'><ImTwitter size='35px'/></button>
                     </div>
                     <hr />
                     <div className='d-flex space-between'>
                         <h6>Already Have Acount ?</h6>
-                        <h6><a href='/signin'>Login your Account</a></h6>
+                        <h6 onClick={()=>{history.push('/signin')}}>Login your Account</h6>
                     </div>
                 </div>
 
